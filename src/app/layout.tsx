@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL ?? "https://persora.xyz"),
+  icons: { icon: "/favicon.png", apple: "/favicon.png" },
   title: "Persora. — AI predictions with receipts",
   description: "Ask anything. Three AI agents research in parallel, verdict stored permanently on 0G.",
   keywords: ["AI predictions", "0G", "on-chain", "multi-agent", "prediction market"],
